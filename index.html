@@ -1,133 +1,234 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Despre</title>
-    <link rel="icon" type="image/png" href="media/profilepic.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P&M Construct Market</title>
+  <link rel="icon" type="image/svg+xml" href="media/site-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-  <div id="header" class="container-12">
-    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-
-        <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none ">
-          <span class="fs-4 logo-name">P&M Construct Market</span>
-        </a>
-
-
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="./index.html#hanging-icons" class="nav-link button" aria-current="page">Despre</a></li>
-        <li class="nav-item"><a href="./contacte.html" class="nav-link button">Contacte</a></li>
-        <li class="nav-item"><a href="https://maps.app.goo.gl/LtYbq4VCbEGPrRXLA" target="_blank" class="nav-link">Locație</a></li>
-      </ul>
-    </header>
-  </div>
-
-  <div class="hero-image"><img src="./media/Corsen Builders.png" alt="main"></div>
-
-
- 
-
-  </div>
-
-
-  <div id="hanging-icons">
-    <div class="container px-4 py-5">
-      <h2 class="pb-2 border-bottom">Ce oferim?</h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 border-bottom">
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <img src="./media/truck.svg" alt="delivery image" height="30px">
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Livrare</h3>
-            <p>Livrare exclusivă în Domnești și Clinceni, gratuită de la comenzi mai mari de 400 lei.</p>
-            <a href="./contacte.html#contacte" class="btn btn-primary">
-              Contactează-ne
-            </a>
-          </div>
+<body class="home-page">
+  <header class="site-header">
+    <div class="site-shell topbar">
+      <a href="./index.html" class="brand text-decoration-none">
+        <span class="brand-mark">P&M</span>
+        <div class="brand-copy">
+          <span class="brand-name">Construct Market</span>
+          <span class="brand-tag">Materiale pentru casa, curte si santier</span>
         </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <img src="./media/bricks.svg" alt="brick wall image" height="30px">
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Materiale</h3>
-            <ul>
-              <li>Vopsele și lavabilă</li>
-              <li>Țeavă și fitinguri PPR/PEHD/Cupru</li>
-              <li>Fitinguri din Alamă/Zincate/Negre</li>
-              <li>Multe altele</li>
-            </ul>
-            <a href="./contacte.html#contacte" class="btn btn-primary">
-              Contactează-ne
-            </a>
-          </div>
+      </a>
+
+      <nav class="site-nav">
+        <a href="#despre" class="nav-pill">Despre</a>
+        <a href="#piatra" class="nav-pill">Piatra</a>
+        <a href="#galerie" class="nav-pill">Galerie</a>
+        <a href="https://maps.app.goo.gl/LtYbq4VCbEGPrRXLA" target="_blank" class="nav-pill">Locatie</a>
+        <a href="./contacte.html" class="nav-pill nav-pill-accent">Contacte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-banner">
+      <div class="hero-banner-image">
+        <img src="./media/Corsen Builders.png" alt="P&M Construct Market">
+      </div>
+      <div class="site-shell hero-summary">
+        <div class="hero-chip">Domnesti si Clinceni</div>
+        <div class="hero-chip">Livrare gratuita peste 400 lei</div>
+        <div class="hero-chip">Materiale, unelte si piatra decorativa</div>
+      </div>
+    </section>
+
+    <section id="despre" class="section-block">
+      <div class="site-shell">
+        <div class="section-title">
+          <span class="eyebrow">P&M Construct Market</span>
+          <h1>Tot ce iti trebuie pentru renovari, instalatii si amenajari exterioare.</h1>
+          <p>Magazin local cu stoc variat, livrare in zona si produse potrivite pentru lucrari mici sau proiecte mai mari.</p>
         </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <img src="./media/hammer.svg" alt="hammer photo" height="30px">
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Alte produse</h3>
-            <ul>
-              <li>Gips Carton, Profile, Accesorii</li>
-              <li>Cuie, sârmă, plasă, panou bordurat</li>
-              <li>Țeavă rectangulară, Cornier, Platband</li>
-              <li>Ciment, multibat, adezivi pentru gresie/faianță/piatră</li>
-              <li>Multe altele</li>
-            </ul>
-            <a href="./contacte.html#contacte" class="btn btn-primary">
-              Contactează-ne
-            </a>
-          </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon-wrap">
+              <img src="./media/truck.svg" alt="Livrare">
+            </div>
+            <h2>Livrare in zona</h2>
+            <p>Livrare in Domnesti si Clinceni, gratuita pentru comenzi mai mari de 400 lei.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-wrap">
+              <img src="./media/bricks.svg" alt="Materiale">
+            </div>
+            <h2>Materiale esentiale</h2>
+            <p>Lavabila, teava, fitinguri, adezivi, ciment si multe alte produse utile pentru santier si casa.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-wrap">
+              <img src="./media/hammer.svg" alt="Produse">
+            </div>
+            <h2>Gama variata</h2>
+            <p>Unelte, profile, plasa, sarma, panou bordurat si acum selectie de piatra decorativa.</p>
+          </article>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="photo-container">
-    <h1>Galerie</h1>
-    <div class="photo-grid">
-        <div class="photo-item"><img src="./media/unelte.jpg" alt="Photo 1"></div>
-        <div class="photo-item"><img src="./media/apa.jpg" alt="Photo 2"></div>
-        <div class="photo-item"><img src="./media/intrare.jpg" alt="Photo 3"></div>
-        <div class="photo-item"><img src="./media/vopsea.jpg" alt="Photo 4"></div>
-        <div class="photo-item"><img src="./media/electrice.jpg" alt="Photo 5"></div>
-        <div class="photo-item"><img src="./media/WhatsApp Image 2024-03-30 at 17.49.06_f717b40f.jpg" alt="Photo 5"></div>
-    </div>
-</div>
+    <section class="section-block section-soft">
+      <div class="site-shell">
+        <div class="section-title">
+          <span class="eyebrow">Ce gasesti la noi</span>
+          <h2>Produse pentru interior, exterior si constructii</h2>
+        </div>
 
-<a href="https://wa.me/40771721882" target="_blank" class="whatsapp-icon">
-  <img src="/media/whatsapp.png" alt="WhatsApp">
-</a>
+        <div class="catalog-grid">
+          <article class="catalog-card">
+            <h3>Finisaje si zugraveli</h3>
+            <ul>
+              <li>Vopsele si lavabila</li>
+              <li>Adezivi pentru gresie, faianta si piatra</li>
+              <li>Ciment si multibat</li>
+            </ul>
+          </article>
 
+          <article class="catalog-card">
+            <h3>Instalatii si metal</h3>
+            <ul>
+              <li>Teava si fitinguri PPR, PEHD si cupru</li>
+              <li>Fitinguri din alama, zincate si negre</li>
+              <li>Teava rectangulara, cornier si platband</li>
+            </ul>
+          </article>
 
-  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+          <article class="catalog-card">
+            <h3>Curte si santier</h3>
+            <ul>
+              <li>Gips carton, profile si accesorii</li>
+              <li>Cuie, sarma, plasa si panou bordurat</li>
+              <li>Piatra naturala decorativa</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="piatra" class="section-block">
+      <div class="site-shell">
+        <div class="section-title centered">
+          <span class="eyebrow">Nou in oferta</span>
+          <h2>Piatra decorativa</h2>
+          <p>Modele pentru curte, garduri, fatade si proiecte de amenajare.</p>
+        </div>
+
+        <div class="gallery-grid gallery-grid-stones">
+          <figure class="gallery-card">
+            <img src="./media/stones/piatra-rustica.svg" alt="Piatra Rustica">
+            <figcaption>
+              <span class="gallery-name">Piatra Rustica</span>
+              <span class="gallery-price">Pret disponibil in magazin</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="./media/stones/granit-arctic.svg" alt="Granit Arctic">
+            <figcaption>
+              <span class="gallery-name">Granit Arctic</span>
+              <span class="gallery-price">Pret disponibil in magazin</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="./media/stones/travertin-clasic.svg" alt="Travertin Clasic">
+            <figcaption>
+              <span class="gallery-name">Travertin Clasic</span>
+              <span class="gallery-price">Pret disponibil in magazin</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="./media/stones/bazalt-urban.svg" alt="Bazalt Urban">
+            <figcaption>
+              <span class="gallery-name">Bazalt Urban</span>
+              <span class="gallery-price">Pret disponibil in magazin</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="./media/stones/quartzit-desert.svg" alt="Quartzit Desert">
+            <figcaption>
+              <span class="gallery-name">Quartzit Desert</span>
+              <span class="gallery-price">Pret disponibil in magazin</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="./media/stones/marmura-alba.svg" alt="Marmura Alba">
+            <figcaption>
+              <span class="gallery-name">Marmura Alba</span>
+              <span class="gallery-price">Pret disponibil in magazin</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="galerie" class="section-block section-soft">
+      <div class="site-shell">
+        <div class="section-title centered">
+          <span class="eyebrow">Galerie magazin</span>
+          <h2>Poze din magazin</h2>
+          <p>Produse reale, rafturi si stoc disponibil direct din magazin.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-card gallery-card-photo">
+            <img src="./media/unelte.jpg" alt="Unelte">
+          </figure>
+          <figure class="gallery-card gallery-card-photo">
+            <img src="./media/apa.jpg" alt="Instalatii">
+          </figure>
+          <figure class="gallery-card gallery-card-photo">
+            <img src="./media/intrare.jpg" alt="Rafturi magazin">
+          </figure>
+          <figure class="gallery-card gallery-card-photo">
+            <img src="./media/vopsea.jpg" alt="Vopsele">
+          </figure>
+          <figure class="gallery-card gallery-card-photo">
+            <img src="./media/electrice.jpg" alt="Electrice">
+          </figure>
+          <figure class="gallery-card gallery-card-photo">
+            <img src="./media/WhatsApp Image 2024-03-30 at 17.49.06_f717b40f.jpg" alt="Produse magazin">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="site-shell cta-panel">
+        <div>
+          <span class="eyebrow">Contact rapid</span>
+          <h2>Vrei detalii despre stoc, livrare sau pret?</h2>
+          <p>Ne poti scrie pe WhatsApp, suna direct sau verifica locatia magazinului.</p>
+        </div>
+
+        <div class="cta-actions">
+          <a href="./contacte.html" class="cta-primary">Vezi pagina de contact</a>
+          <a href="https://maps.app.goo.gl/LtYbq4VCbEGPrRXLA" target="_blank" class="cta-secondary cta-secondary-dark">Deschide locatia</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/40771721882" target="_blank" class="whatsapp-icon" aria-label="Contact WhatsApp">
+    <img src="./media/whatsapp.png" alt="WhatsApp">
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

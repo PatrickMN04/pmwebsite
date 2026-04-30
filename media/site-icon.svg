@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="P&M Construct Market icon">
+  <rect width="512" height="512" rx="104" fill="#171a1d"/>
+  <path d="M90 225 256 86l166 139h-61L256 137 151 225H90Z" fill="#f6bd2f"/>
+  <path d="M374 143h43v82h-43z" fill="#f6bd2f"/>
+  <g fill="#cf5f2a">
+    <rect x="132" y="338" width="70" height="36" rx="7"/>
+    <rect x="218" y="338" width="70" height="36" rx="7"/>
+    <rect x="304" y="338" width="70" height="36" rx="7"/>
+    <rect x="175" y="389" width="70" height="36" rx="7"/>
+    <rect x="261" y="389" width="70" height="36" rx="7"/>
+  </g>
+  <text x="256" y="306" fill="#fff8ed" font-family="Arial, Helvetica, sans-serif" font-size="138" font-weight="900" text-anchor="middle">P&amp;M</text>
+  <path d="M109 428c68 37 226 45 296 0-74 78-223 78-296 0Z" fill="#f6bd2f"/>
+</svg>

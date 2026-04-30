@@ -1,0 +1,126 @@
+.contact-card-action {
+  display: block;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact-card-action .contact-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.contact-card-action:focus-visible {
+  outline: 3px solid rgba(241, 191, 97, 0.9);
+  outline-offset: 4px;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    position: static;
+  }
+
+  .topbar {
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .brand-mark {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    flex: 0 0 auto;
+    font-size: 0.98rem;
+  }
+
+  .brand-tag {
+    max-width: 260px;
+  }
+
+  .site-nav {
+    gap: 7px;
+  }
+
+  .nav-pill {
+    min-height: 40px;
+    padding: 8px;
+    font-size: 0.88rem;
+  }
+
+  .section-block {
+    padding: 40px 0;
+  }
+
+  .contact-hero {
+    padding: 12px 0 20px;
+  }
+
+  .contact-hero-copy {
+    padding: 20px 0 0;
+  }
+
+  .contact-hero-actions {
+    gap: 9px;
+    margin-top: 18px;
+  }
+
+  .contact-grid {
+    gap: 14px;
+  }
+
+  .contact-card {
+    display: grid;
+    grid-template-columns: 54px 1fr;
+    align-items: center;
+    column-gap: 14px;
+    row-gap: 6px;
+  }
+
+  .contact-icon {
+    grid-row: span 3;
+    width: 54px;
+    height: 54px;
+    border-radius: 18px;
+    margin-bottom: 0;
+  }
+
+  .contact-card h2 {
+    font-size: 1.16rem;
+  }
+
+  .contact-card p {
+    margin: 0;
+    line-height: 1.45;
+  }
+
+  .contact-link {
+    display: inline-block;
+    margin-top: 2px;
+    font-size: 0.95rem;
+  }
+
+  .location-panel {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 520px) {
+  .feature-card,
+  .catalog-card,
+  .contact-card,
+  .location-card,
+  .cta-panel {
+    padding: 18px;
+  }
+
+  .contact-card {
+    border-radius: 22px;
+  }
+
+  .contact-hero-copy p,
+  .section-title p,
+  .location-copy p {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+}
